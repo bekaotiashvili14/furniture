@@ -1,0 +1,105 @@
+@media (max-width: 600px) {
+  .nav_item {
+    display: none;
+  }
+  .background_img {
+    height: 800px;
+    width: 100%;
+    margin: 0;
+  }
+  .background_img_container {
+    height: 350px;
+    width: 100vw;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .background_img_container p {
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+  .background_img_container h1 {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+  }
+  .background_img_container h6 {
+    display: none;
+  }
+  .buy_now {
+    margin: 50px;
+  }
+  .delivery_cantainer {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .image_container {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .clockimage {
+    width: 190px;
+  }
+  .lamp {
+    width: 50px;
+  }
+  .lamp_box {
+    min-width: 190px;
+    height: 230px;
+  }
+  .poof {
+    padding-top: 50px;
+    width: 190px;
+  }
+  .beauty_container {
+    width: 100%;
+    height: 800px;
+    flex-direction: column;
+  }
+  .girl_image {
+    width: 300px;
+    height: 430px;
+  }
+  .beauty_container_img {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .beauty_container_text {
+    align-items: center;
+    padding: 0;
+  }
+  .beauty_container_text small {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+    height: 100%;
+    gap: 50px;
+  }
+  .footer_text_container p {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .footer_image_container p {
+    display: none;
+  }
+  .footer_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .footer_small_text {
+    display: none;
+  }
+}
