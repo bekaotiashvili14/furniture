@@ -102,4 +102,7 @@
   .footer_small_text {
     display: none;
   }
+  .mail {
+    flex-direction: column;
+  }
 }
